@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 font-sans leading-normal tracking-normal">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-bold">My Portfolio</h1>
+                <nav class="space-x-6 text-lg">
+                    <a href="#home" class="hover:text-blue-300">Trang Chủ</a>
+                    <a href="#about" class="hover:text-blue-300">Giới Thiệu</a>
+                    <a href="#projects" class="hover:text-blue-300">Dự Án</a>
+                    <a href="#contact" class="hover:text-blue-300">Liên Hệ</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center h-screen text-white" style="background-image: url('https://via.placeholder.com/1500x800');">
+        <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
+            <div class="text-center px-4 md:px-12">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Chào Mừng Đến Với Trang Portfolio Của Tôi</h2>
+                <p class="text-lg mb-8">Chuyên gia Frontend với kinh nghiệm vững vàng trong React, Vue, Tailwind CSS, và các công nghệ hiện đại khác.</p>
+                <a href="#projects" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition duration-300">Xem Các Dự Án</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white text-center">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-semibold mb-8">Giới Thiệu Về Tôi</h2>
+            <p class="text-lg text-gray-700">Tôi là một Senior Frontend Developer với hơn 5 năm kinh nghiệm làm việc trên các dự án lớn, đặc biệt trong việc sử dụng React và Tailwind CSS. Tôi đam mê xây dựng các giao diện người dùng đẹp mắt và dễ sử dụng, tối ưu hiệu suất ứng dụng web.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-center mb-8">Các Dự Án Của Tôi</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Dự Án 1</h3>
+                        <p class="text-gray-700 mb-4">Mô tả ngắn gọn về dự án này. Đây là một ứng dụng React sử dụng Tailwind CSS để tạo ra giao diện người dùng mượt mà.</p>
+                        <a href="#" class="text-blue-600 hover:underline">Xem Chi Tiết</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Dự Án 2</h3>
+                        <p class="text-gray-700 mb-4">Mô tả ngắn gọn về dự án này. Dự án sử dụng Vue.js kết hợp với Tailwind CSS để phát triển giao diện người dùng tương tác.</p>
+                        <a href="#" class="text-blue-600 hover:underline">Xem Chi Tiết</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Dự Án 3</h3>
+                        <p class="text-gray-700 mb-4">Mô tả ngắn gọn về dự án này. Một ứng dụng quản lý công việc sử dụng React và các công cụ hiện đại khác để tăng hiệu suất.</p>
+                        <a href="#" class="text-blue-600 hover:underline">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white text-center">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-semibold mb-8">Liên Hệ</h2>
+            <p class="text-lg text-gray-700 mb-8">Nếu bạn muốn kết nối hoặc hợp tác cùng tôi, vui lòng điền vào form dưới đây hoặc gửi email trực tiếp.</p>
+            <a href="mailto:example@email.com" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition duration-300">Gửi Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <p>&copy; 2025 My Portfolio | Tất cả quyền lợi được bảo lưu</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
